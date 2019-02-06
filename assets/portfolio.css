@@ -1,0 +1,56 @@
+@import './footer.css';
+@import './nav.css';
+@import './reset.css';
+
+body {
+    background-color: #EEEEEE;
+    color: #454545;
+    line-height: 25px;
+    
+}
+
+#resume {
+    overflow: auto;
+    /* display: table; */
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#resume div {
+    height: 100%;
+}
+
+#skills-container {
+    display: flex;
+    align-content: center;
+    list-style: none;
+    flex-direction: column;
+
+}
+
+#work-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.
+
+/* #left-section {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 10px;
+}
+
+#right-section {
+    position: absolute;
+    right: 0;
+    width: 80%;
+} */
+

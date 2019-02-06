@@ -1,0 +1,66 @@
+@import './footer.css';
+@import './nav.css';
+@import './reset.css';
+
+body {
+    background-color: #EEEEEE;
+    color: #454545;
+    line-height: 25px;
+}
+
+img {
+    border-radius: 200px;
+}
+
+#main-body {
+    transform: translateY(5vh);
+    
+    left: 0;
+    right: 0;
+    margin: 2em auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+#avatar, #bio, #contact {
+    padding: 10px;
+}
+
+#avatar {
+    align-self: center; 
+}
+
+#bio {
+    align-self: center;
+}
+
+#contact {
+    align-self: center;
+}
+
+ol#contact-list {
+    padding: 0;
+}
+
+#contact-list li {
+    display: inline;
+    padding: 5px;
+    
+}
+
+h4 {
+    margin: 0;
+}
+
+#fab {
+    color: #454545;
+}
+
+#bio p {
+    text-indent: 20px;
+}
+
