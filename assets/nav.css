@@ -1,0 +1,23 @@
+header {
+    background-color: rgba(49, 49, 49, 0.7);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+}
+
+nav a {
+    color: #EEEEEE;
+}
+
+nav ul li a:hover {
+    color: rgb(174, 113, 202);
+}

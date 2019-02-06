@@ -1,0 +1,33 @@
+@import './footer.css';
+@import './nav.css';
+@import './reset.css';
+
+html, body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: url("main-bg.jpg");
+    background-size: cover;
+    color: #EEEEEE;
+}
+
+div h1, div h3 {
+    padding-left: 10px; 
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .50);
+}
+
+h3 {
+    margin: 0;
+}
+
+#section-bg {
+    transform: translateY(45vh);
+    background-color: rgba(49, 49, 49, 0.7);
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    height: 8rem;
+}
