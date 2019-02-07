@@ -1,0 +1,25 @@
+@import './footer.css';
+@import './nav.css';
+@import './reset.css';
+
+body {
+    background-color: #EEEEEE;
+    color: #454545;
+}
+
+#music-body {
+    margin: 2em auto;
+    max-width: 1000px;
+    text-align: center;
+    transform: translateY(50px);
+    display: flex;
+    flex-direction: column;
+}
+
+#music-body iframe {
+    align-content: center;
+}
+
+.genre {
+    margin: 1;
+}
